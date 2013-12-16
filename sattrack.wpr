@@ -1,0 +1,15 @@
+#!wing
+#!version=5.0
+##################################################################
+# Wing IDE project file                                          #
+##################################################################
+[project attributes]
+proj.directory-list = [{'dirloc': loc('../sattrack3'),
+                        'excludes': (),
+                        'filter': u'*',
+                        'include_hidden': False,
+                        'recursive': True,
+                        'watch_for_changes': True}]
+proj.file-list = [loc('../sattrack3.py'),
+                  loc('../sattrack3/sattrack.py')]
+proj.file-type = 'shared'
